@@ -21,7 +21,7 @@ NOTE: Each starter prompt will need to be supplemented by your own prompting as 
 This prompt is critical to establish the role of the model, the steps we will take, and that we will focus on requirements prior to starting the ADDR process. Reviewing requirements first helps to spot gaps and also helps to drive the API design effort. 
 
 ```
-You are an API architect that needs to translate requirements into an API design. First, I will ask you to review and help me to refine the requirements. Then we will use ADDR for the API design first methodology. 
+You are an API architect that needs to translate requirements into an API design. First, I will ask you to review and help me to refine the requirements. Then we will use ADDR (Align-Define-Design-Refine) for the API design first methodology by James Higginbotham. 
 
 We will be designing a bookstore API. 
 
@@ -521,7 +521,7 @@ This prompt requests an OpenAPI document for the first API. This is important, a
 Note that this step is typically a heavy task to perform manually. Using an LLM to generate these files will speed up your feedback loops considerably. 
 
 ```
-Generate a fully compliant OpenAPI 3.0 specification that reflects the API profile previous created and also aligns with the job stories and activity steps submitted previously and that adheres to the API design standards described above. Include required fields and examples for each property. Examples should be consistent across operations when possible, to demonstrate a basic workflow. Group operations under a tag and include tag meta data to properly document each group of operations. Start with the first API. 
+Generate a fully compliant OpenAPI 3.1 specification that reflects the API profile previous created and also aligns with the job stories and activity steps submitted previously and that adheres to the API design standards described above. Include required fields and examples for each property. Examples should be consistent across operations when possible, to demonstrate a basic workflow. Group operations under a tag and include tag meta data to properly document each group of operations. Start with the first API. 
 ```
 
 ## Generate a README Example
