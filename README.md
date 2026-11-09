@@ -10,11 +10,9 @@ These starter prompts are used in our quarterly report that evaluates LLMs to de
 
 ## Tips and Guardrails
 
-* __Separate chat sessions when needed__. For some models, you may need to separate each phase into a separate chat session. In that case, export the artifacts from each previous chat session and import all artifacts into the next chat session. This will reduce hallucinations or sessions that turn sloppy or run amok. 
 * __Prefer iterative work over one-shot design sessions__. The larger the scope of your project, the more bounded API contexts you may have. When you have more than one, limit the model to operating on the first boundary in its list (or a boundary of your choosing) before proceeding to each boundary in turn. Failing to take this approach often yields poor results or incomplete responses. 
 * __Ask the model to generate your style guide prompt__. When you are ready to turn your ADDR artifacts into an API design, launch a separate chat session and ask the model to generate a prompt from your style guide. This will help you to align your designs to your organization's API style guide during design and reduce the amount of API design review that is required.
-
-NOTE: Each starter prompt will need to be supplemented by your own prompting as you progress through each phase to direct the model to change, remove, or add anything that may be missing. 
+* __These are starter prompts - customize them as needed__. Each starter prompt will need to be supplemented by your own prompting as you progress through each phase to direct the model to change, remove, or add anything that may be missing. 
 
 ## New Chat Session Prompt
 
